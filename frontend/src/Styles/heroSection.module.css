@@ -1,0 +1,44 @@
+.background {
+  width: 100%;
+  height: calc(100vh - 75px);
+  background-image: url("../assets/bg_image.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background_overlay {
+  width: 37%;
+  border-radius: 2px;
+  background: rgba(247, 248, 250, 0.7);
+  backdrop-filter: blur(12px);
+}
+.hero_container {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 10%;
+}
+.hero_description {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.hero_button_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_button {
+  margin: 30px 0;
+  padding: 8px 44px;
+  border: none;
+  border-radius: 4px;
+  background: #56b280;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20.645px;
+  cursor: pointer;
+}
+
